@@ -1,0 +1,35 @@
+.containerElements {
+    width: 100%;
+    padding: 2.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.containerBody {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start; 
+    gap: 2.5rem;
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cardItem {
+    flex: 0 1 calc(33.333% - 2.5rem);
+    box-sizing: border-box;
+}
+
+@media (max-width: 1024px) {
+    .cardItem {
+        flex: 0 1 calc(50% - 2.5rem);
+    }
+}
+
+@media (max-width: 600px) {
+    .cardItem {
+        flex: 0 1 100%;
+    }
+}

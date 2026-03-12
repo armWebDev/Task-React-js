@@ -1,0 +1,66 @@
+.cardItem {
+  width: 360px;
+  height: 460px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.imageItem {
+  width: 100%;
+}
+
+.imageItem img {
+  width: 100%;
+  height: 100%;
+}
+
+.categoryItem {
+  font-weight: 700;
+  font-size: 0.8125rem;
+  line-height: 13px;
+  letter-spacing: 0px;
+  color: #eb0028;
+}
+
+.postText {
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 20px;
+  letter-spacing: 0px;
+  color: #929292;
+}
+
+.spanComponent {
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 12px;
+  letter-spacing: 0px;
+  color: #9b9b9b;
+}
+
+.aouthorName {
+  font-weight: 500;
+  font-size: 0.75rem;
+  line-height: 12px;
+  letter-spacing: 0px;
+}
+
+.hraderTitle {
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 30px;
+  letter-spacing: 0px;
+}
+@media (max-width: 1024px) {
+  .cardItem {
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    overflow: hidden;
+    height: auto;
+  }
+}
